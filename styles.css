@@ -1,0 +1,775 @@
+.nav-item {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(0, 35, 59);
+    cursor: pointer;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 35, 59);
+    text-decoration-thickness: 2px;
+}
+
+.btn-warning {
+    background-color: rgb(255, 153, 0) !important;
+    border-radius: 22px !important;
+    box-shadow: rgb(199, 119, 0) 0px 3px 0px 0px !important;
+    color: rgb(255, 255, 255) !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 11px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    height: 24px !important;
+    line-height: 15px !important;
+    padding: 4px 12px !important;
+    text-align: left !important;
+    transition: all 0.3s ease !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.nav-link-2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #00233b;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.nav-link-2:hover {
+    color: #FF6600;
+}
+
+.nav-item-2 {
+    list-style: none;
+    display: inline;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-icon {
+    color: #FF6600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Estilos para el menú principal */
+.nav-link-2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #00233b;
+    padding: 8px 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-link-2:hover {
+    color: #FF6600;
+}
+
+.nav-item-2 {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-icon {
+    color: #FF6600;
+    font-size: 24px;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    min-width: 200px;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    padding: 8px 20px;
+}
+
+.dropdown-menu li a {
+    color: #00233b;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo para el hover de los enlaces del submenú */
+.dropdown-menu li a:hover {
+    font-weight: bold;
+    color: #00233b;
+    text-decoration: none;
+}
+
+/* Mostrar el menú desplegable al pasar el cursor */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+/* Estilos para el submenú */
+.submenu {
+    font-size: 12px;
+    margin: 20px auto;
+    text-align: left;
+    width: 90%;
+    max-width: 1000px;
+    color: #777;
+}
+
+.submenu a {
+    color: #1779ba;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.submenu .software {
+    color: #81868a;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contenedor principal */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+    color: #00233b;
+}
+
+.main-content .Ingeniería {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+}
+
+
+/* Columna izquierda */
+.left-content {
+    flex: 1;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.label-container::before,
+.label-container::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #FF6600;
+    margin: 0 10px;
+}
+
+.label {
+    background-color: #FF6600;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.left-content .h1 {
+    font-size: 32px;
+    font-weight: 1200;
+    color: #00233b;
+    margin-top: 20px;
+}
+
+.left-content .p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+/* Contenedor para los botones */
+.button-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+/* Botones */
+.btn-primary, .btn-secondary {
+    width: 100%; 
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #FF6600;
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #00233b;
+}
+
+.btn-secondary {
+    background-color: #FF6600;
+    color: #fff;
+}
+
+/* Columna derecha */
+.right-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-content .p {
+    color: #fff;
+}
+
+.program-image {
+    border-radius: 50%;
+    max-width: 300px;
+    height: auto;
+}
+
+.info-box {
+    background-color: #4F6A75;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px; 
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.info-box p {
+    margin: 5px 0;
+}
+
+.separator {
+    width: 80%; 
+    height: 2px; 
+    background-color: #FF6600; 
+    margin: 20px auto;
+}
+
+/* Sección de formulario */
+.form-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    color: #00233b;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-row input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    font-size: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #00233b;
+}
+
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+/* Estilo de footer del formulario */
+.form-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.form-footer label {
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #4e4e4e;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.form-footer button {
+    padding: 10px 30px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo para Titulaciones */
+
+.titulaciones {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px; 
+}
+
+.titulaciones h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.titulaciones .card {
+    background-color: #f8f7f5; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    height: 260px; 
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #00233b;
+    margin-bottom: 10px; 
+}
+
+.card p {
+    font-size: 18px;
+    color: #00233b;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+.card .p2 {
+    font-size: 12px;
+    color: #00233b;
+    margin-top: auto;  
+}
+
+.card a {
+    color: #ff6a00;
+    text-decoration: underline;
+    font-weight: 400;
+    margin-top: auto; 
+}
+
+/* Campo laboral */
+
+.campo-laboral {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo-laboral .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+/* Título principal */
+.campo-laboral h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor del texto "Campo Laboral" */
+.campo-laboral-text {
+    text-align: left;
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+/* Estilos de las imágenes */
+.campo-laboral-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+/* matriulas */
+.matriculas {
+    max-width: 1200px;
+    background-color: #f8f7f5;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.matriculas p {
+    margin-top: 20px; 
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    color: #00233b;
+    font-weight: 400;
+}
+
+.matriculas h3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+/* Estilos para el contenedor del perfil */
+.perfil-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Columna izquierda con imagen y texto */
+.perfil-izquierda {
+    flex: 1;
+    max-width: 500px;
+}
+
+.perfil-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.perfil-texto {
+    margin-top: 20px;
+}
+
+/* Texto de perfil */
+.perfil-texto h4 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.perfil-texto p {
+    margin-bottom: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #00233b;
+    font-weight: 400;
+}
+
+/* Columna derecha con lista y botón */
+.perfil-derecha {
+    flex: 1;
+    margin-left: 50px; 
+}
+
+/* Estilo para el título de la lista */
+.perfil-derecha h5 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 750;
+    color: #00233b;
+    margin-bottom: 30px;
+    
+
+}
+
+/* Lista con viñetas */
+.perfil-lista {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px; 
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.perfil-lista li {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #003366; 
+}
+
+/* Cambia el color de las viñetas */
+.perfil-lista li::marker {
+    color: #ff6600; 
+}
+
+/* Botón de Plan de Estudios */
+.plan-estudios {
+    background-color: #446d89;
+    color: #ffffff;
+    border: none;
+    border-radius: 0; 
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 250px; 
+    display: flex;
+    align-items: center; 
+    text-align: left;
+    height: 40px; 
+    padding-left: 0; 
+}
+
+.plan-estudios:hover {
+    color: #002244;
+}
+
+/* Estilo del ícono */
+.icono-plan {
+    height: 100%;
+    width: auto; 
+    margin-right: 10px; 
+}
+
+.footer {
+    background-color: #4e5357;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px; 
+}
+
+.footer-right {
+    padding: 10px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer .logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo {
+    height: 70px;
+    width: 350px;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.footer-link {
+    color: #ff6700;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #ddd;
+    margin: 0 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.gray-container {
+    background-color: #707070 ; 
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.location-column {
+    flex: 1;
+    
+}
+
+.location-column h4 {
+    flex: 1;
+    color: #ff6700;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.location-column p {
+    color: #fff;
+    font-size: 10px; 
+}
+
+.certification-column {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.certification-item {
+    text-align: center;
+}
+
+.certification-logo {
+    height: 120px; 
+    margin-bottom: 5px;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.important-links a {
+    color: #ff6700;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-work {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #ff6700;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-work:hover {
+    background-color: #e65c00;
+}
